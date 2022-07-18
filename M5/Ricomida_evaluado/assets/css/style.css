@@ -1,0 +1,101 @@
+.body {
+    font-family: 'Cabin', sans-serif;
+ }
+.colordefondonav-navbar {
+    background-color: #373A3C;
+}
+.letra-ricomida {
+    font-family: 'Lobster' , cursive;
+    font-size: 39px;
+}
+.img-principal {
+    width: 482px;
+    height: 384px;
+}
+.titulo-negrita {
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+
+/* Inicio carrusel */
+.tamano_imagen_carousel {
+    width: 233px;
+    height: 170px;
+}
+/* Inicio receta */
+li {
+    list-style: none;
+}
+h6 {
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#listado_ingredientes.dbl {
+    color: #DC3545;
+}
+#reparacion_lista.dbl {
+    color: #DC3545;
+}
+/* Inicio suscripción */
+.newsletter {
+    /* height: 534px; */
+    background-color: #DC3545;
+    width: 100%;
+    padding: 120px;
+}
+
+/* .info-suscripcion { */
+    /* font-size: 40px; */
+/* } */
+/* .envio-recetas { */
+    /* color: #FFFFFF; */
+    /* font-size: 30px; */
+/* } */
+
+/* .font-lobster { */
+    /* font-family: 'Lobster Two'; */
+/* } */
+
+/* Inicio footer*/
+.termino-de-pag {
+    background-color: #373A3C;
+    height: 125px;
+    width: 100%;
+}
+.texto-termino-de-pag {
+    font-family: 'Lobster Two';
+    font-size: 37px;
+    color: #FFFFFF;
+}
+@media(max-width:320px) {   
+    .col {
+        text-align: center;
+    }
+    .btn {
+        font-size: 13px;
+    }
+    #receta-completa {
+        font-family: 'Cabin Condensed';
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .preparacion-masa {
+        font-size: 16px;
+    }
+    .listado {
+        font-size: 16px;
+    }
+    /* .info-suscripcion { */
+        /* font-size: 30px; */
+        /* text-align: center; */
+    /* } */
+    /* .envio-recetas { */
+        /* font-size: 20px; */
+        /* text-align: center; */
+    /* } */
+    /* .suscripcion { */
+        /* padding: 50px; */
+    /* } */
+}
